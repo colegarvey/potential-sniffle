@@ -1,7 +1,11 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
+*.env
+.env.*
+*.sqlite3
 
 # Virtual environment
 venv/
@@ -18,3 +22,6 @@ env/
 
 # VSCode
 .vscode/
+
+# Windows junk files (optional)
+Thumbs.db
